@@ -13,7 +13,7 @@ arch:
 language: java
 
 jdk:
-  - openjdk11
+  - openjdk8
 
 script:
   - sudo mvn install
