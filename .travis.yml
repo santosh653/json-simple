@@ -9,6 +9,10 @@
 arch:
   - amd64
   - ppc64le
+required: sudo
+before_install:
+  - sudo apt-get update -y
+  - sudo apt-get install -y git wget openjdk-8-jdk openjdk-8-jre
 
 language: java
 
